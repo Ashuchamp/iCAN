@@ -1,0 +1,20 @@
+
+buses:
+  - name: BUS1
+    enabled: true
+    interface: pcan
+    channel: PCAN_USBBUS1
+    bitrate: 500000
+
+  - name: BUS2
+    enabled: true
+    interface: pcan
+    channel: PCAN_USBBUS2
+    bitrate: 500000
+
+ui:
+  autostart: true
+  status_interval_ms: 1000
+
+db:
+  path: <your-dbc-file>.dbc
